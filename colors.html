@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .color-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .color-box {
+            width: 200px;
+            height: 150px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        .color-name {
+            margin-top: 5px;
+            font-size: 0.9em;
+            text-align: center;
+            word-break: break-word;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Palette</h1>
+    <div class="color-container">
+        <div class="color-box" style="background-color: #3F83F8;">
+            <div class="color-name">primary</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #3F83F8, #2A62B3);">
+            <div class="color-name">primaryGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #A7C7FA, #70A1FA);">
+            <div class="color-name">primaryLightGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #14B8A6;">
+            <div class="color-name">secondary</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #14B8A6, #0D7A6E);">
+            <div class="color-name">secondaryGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #76D7C4, #4AC9B7);">
+            <div class="color-name">secondaryLightGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #64748B;">
+            <div class="color-name">gray</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #64748B, #434D59);">
+            <div class="color-name">grayGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #A6B1BE, #838E9C);">
+            <div class="color-name">grayLightGradient</div>
+        </div>
+         <div class="color-box" style="background: linear-gradient(45deg, #434D59, #64748B);">
+            <div class="color-name">darkerGreyGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #5046E5;">
+            <div class="color-name">indigo</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #5046E5, #342F9A);">
+            <div class="color-name">indigoGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #9992F2, #7A73E9);">
+            <div class="color-name">indigoLightGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #EF4444;">
+            <div class="color-name">red</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #EF4444, #B32929);">
+            <div class="color-name">redGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #F58A8A, #F06666);">
+            <div class="color-name">redLightGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #23C55E;">
+            <div class="color-name">green</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #23C55E, #167A3A);">
+            <div class="color-name">greenGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #7DE79F, #54D67D);">
+            <div class="color-name">greenLightGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #EAB206;">
+            <div class="color-name">yellow</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #EAB206, #A37D04);">
+            <div class="color-name">yellowGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #F2D86B, #ECD047);">
+            <div class="color-name">yellowLightGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #6367F0;">
+            <div class="color-name">violet</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #6367F0, #4447A8);">
+            <div class="color-name">violetGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #A3A6F7, #8386F3);">
+            <div class="color-name">violetLightGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #FBFAFD;">
+            <div class="color-name">snowMist</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #FBFAFD, #E8E7EA);">
+            <div class="color-name">snowMistGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #FFFFFF, #FCFCFD);">
+            <div class="color-name">snowMistLightGradient</div>
+        </div>
+         <div class="color-box" style="background: linear-gradient(45deg, #E8E7EA, #D1D0D3);">
+            <div class="color-name">darkerSnowMistGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #9CA3AF;">
+            <div class="color-name">ashGrey</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #9CA3AF, #6B7280);">
+            <div class="color-name">ashGreyGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #D1D5DB, #B3B8C1);">
+            <div class="color-name">ashGreyLightGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #1F2937;">
+            <div class="color-name">nightGrey</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #1F2937, #131820);">
+            <div class="color-name">nightGreyGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #4B5563, #374151);">
+            <div class="color-name">nightGreyLightGradient</div>
+        </div>
+         <div class="color-box" style="background: linear-gradient(45deg, #23C55E, #167A3A);">
+            <div class="color-name">locationButtonGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #7DE79F, #54D67D);">
+            <div class="color-name">locationButtonLightGradient</div>
+        </div>
+        <div class="color-box" style="background-color: #EA580C;">
+            <div class="color-name">orange</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #EA580C, #C2410C);">
+            <div class="color-name">orangeGradient</div>
+        </div>
+        <div class="color-box" style="background: linear-gradient(45deg, #F29A6B, #ED7947);">
+            <div class="color-name">orangeLightGradient</div>
+        </div>
+    </div>
+</body>
+</html>
